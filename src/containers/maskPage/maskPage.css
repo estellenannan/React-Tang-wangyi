@@ -1,0 +1,40 @@
+.backWapBtn {
+  width: 3.38667rem;
+  height: 0.4rem;
+  left: 3.14667rem;
+  top: 3.08rem;
+  position: absolute;
+  display: block;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.g-bd {
+  max-width: 10rem;
+  margin: 0 auto;
+  background: #eee;
+  line-height: 1.5;
+  color: #333;
+  height: 100%;
+}
+.g-bd .g-row {
+  position: relative;
+  width: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 186px;
+}
+.g-bd .g-row:nth-child(2) {
+  padding-top: 0;
+}
+.g-bd .g-row img {
+  vertical-align: top;
+  width: 100%;
+}
+.g-bd .g-row .download-app {
+  width: 5.76rem;
+  height: 1.30667rem;
+  left: 1.92rem;
+  top: 1.29333rem;
+  position: absolute;
+  display: block;
+}

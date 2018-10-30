@@ -1,0 +1,23 @@
+.btns {
+  width: 100%;
+}
+.btns .btn_container {
+  margin: 0.26667rem auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #fff;
+  width: 90%;
+  background-color: #b4282d;
+  border: 2px solid #b4282d;
+  border-radius: 0.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns .btn_container span {
+  font-size: 0.4rem;
+}
+.btns .btn_container .iconfont {
+  font-size: 0.6rem;
+}

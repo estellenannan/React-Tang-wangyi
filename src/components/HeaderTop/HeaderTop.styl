@@ -1,0 +1,42 @@
+
+@import "../../assets/stylus/mixins.styl"
+.wrap
+  width 100%
+  position relative
+  .headerTop
+    position fixed
+    top  0rem
+    left 0rem
+    width 100%
+    background #FAFAFA
+    height 1rem
+    padding 0.1rem 0.2rem
+    box-sizing border-box
+    overflow hidden
+    z-index 101
+    .headerTop_ul
+      clearFix()
+      display flex
+      li
+        display inline-block
+        padding-bottom .3rem
+      .secondLi
+        display flex
+        justify-content center
+        align-items center
+        span
+          font-size 0.5rem
+          font-weight bold
+          color #1A1A1A
+      .thirdLi
+        display flex
+        justify-content center
+        align-items center
+        .icon-gouwuche2
+          margin-left 0.4rem
+      li
+        float left
+        flex 1
+        .iconfont
+          font-size 0.7rem
+          color #7e8c8d

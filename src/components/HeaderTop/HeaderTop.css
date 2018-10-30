@@ -1,0 +1,65 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.wrap {
+  width: 100%;
+  position: relative;
+}
+.wrap .headerTop {
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  background: #fafafa;
+  height: 1rem;
+  padding: 0.1rem 0.2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 101;
+}
+.wrap .headerTop .headerTop_ul {
+  *zoom: 1;
+  display: flex;
+}
+.wrap .headerTop .headerTop_ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.wrap .headerTop .headerTop_ul li {
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+.wrap .headerTop .headerTop_ul .secondLi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .headerTop .headerTop_ul .secondLi span {
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+.wrap .headerTop .headerTop_ul .thirdLi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .headerTop .headerTop_ul .thirdLi .icon-gouwuche2 {
+  margin-left: 0.4rem;
+}
+.wrap .headerTop .headerTop_ul li {
+  float: left;
+  flex: 1;
+}
+.wrap .headerTop .headerTop_ul li .iconfont {
+  font-size: 0.7rem;
+  color: #7e8c8d;
+}
